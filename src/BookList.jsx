@@ -16,7 +16,9 @@ const BookList = () => {
   return (
     <section className="bookList">
       {/* <AboutBook title="title1" /> */}
-      <AboutBook img={book1.img} title={book1.title} />
+      <AboutBook img={book1.img} title={book1.title}>
+        <p>Children Prop only for book1</p>
+      </AboutBook> 
       <AboutBook img={book2.img} title={book2.title} />
     </section>
   );

@@ -5,7 +5,7 @@ import React from 'react'
 
 const BookName = (props) => {
   //props = {title:'', img:''}
-  const {title,img} = props;
+  const {title,img, children} = props;
 console.log(props);
 
   return (
@@ -14,6 +14,7 @@ console.log(props);
       <img src={img} height="100px" />
       {/* {props.title} */}
       <h4>{title}</h4>
+      <h5>{children}</h5>
     </article>
   );
 }
