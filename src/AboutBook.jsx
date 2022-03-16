@@ -1,6 +1,9 @@
 import React from 'react'
 
+  const dynamicTitle = "title1";
+
 const BookName = () => {
+
   return (
     <article className='book'>
       <Image />
@@ -15,7 +18,8 @@ const Image = () => (
     alt=""
   />
 );
-//impicit Return
-const BookTitle = () => <h1 style={{color:"red"}}>Book title</h1>;
+//impicit Return //inline styling
+//const BookTitle = () => <h1 style={{color:"red"}}>Book title</h1>;//only expression that return vale , no statement
+const BookTitle = () => <h1>{dynamicTitle}</h1>
 
 export default BookName
