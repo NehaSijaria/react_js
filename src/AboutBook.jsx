@@ -11,10 +11,12 @@ const BookName = () => {
     </article>
   );
 }
-
+const img =
+  "https://images-na.ssl-images-amazon.com/images/I/51p2SDOCV9L._SX482_BO1,204,203,200_.jpg";
+  
 const Image = () => (
   <img
-    src="https://images-na.ssl-images-amazon.com/images/I/51p2SDOCV9L._SX482_BO1,204,203,200_.jpg" height="100px"
+    src={img} height="100px"
     alt=""
   />
 );
