@@ -2,7 +2,7 @@ import React from 'react'
 
 const BookName = () => {
   return (
-    <article>
+    <article className='book'>
       <Image />
       <BookTitle />
     </article>
@@ -16,6 +16,6 @@ const Image = () => (
   />
 );
 //impicit Return
-const BookTitle = () => <h4>Book title</h4>;
+const BookTitle = () => <h1>Book title</h1>;
 
 export default BookName

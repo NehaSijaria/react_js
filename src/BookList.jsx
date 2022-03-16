@@ -3,7 +3,7 @@ import AboutBook from "./AboutBook";
 
 const BookList = () => {
   return (
-    <section>
+    <section className="bookList">
       <AboutBook />
       <AboutBook />
     </section>
