@@ -16,6 +16,6 @@ const Image = () => (
   />
 );
 //impicit Return
-const BookTitle = () => <h1>Book title</h1>;
+const BookTitle = () => <h1 style={{color:"red"}}>Book title</h1>;
 
 export default BookName
